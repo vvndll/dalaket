@@ -10,7 +10,7 @@ const Shop = ({ products }) => {
     <>
     <Head>
         <title>Dalaket | Shop</title>
-        <link rel="icon" href="/logo.ico" />
+        <link rel="icon" href="/logo.png" />
     </Head>
     <div className={styles.shop}>
         <div className={styles.label}>Shop All</div>

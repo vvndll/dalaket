@@ -62,11 +62,12 @@
         }
 
         .cont {
+            padding-top: 5rem;
+            padding-bottom: 8rem;
+            overflow: scroll;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            height: 100%;
-            margin-top: 3rem;
 
             .item {
                 margin-block: 1em;

@@ -1,5 +1,5 @@
 import React from "react";
-import { client, urlFor } from '../lib/client';
+import { client } from '../lib/client';
 import Link from "next/link";
 import Head from "next/head";
 import styles from '../styles/Home.module.scss';
@@ -9,7 +9,7 @@ const Home = ({ bannerData }) => {
     <>
     <Head>
         <title>Dalaket | Home</title>
-        <link rel="icon" href="/logo.ico" />
+        <link rel="icon" href="/logo.png" />
     </Head>
     <div className={styles.home}>
       <video autoPlay muted loop className={styles.video}>         

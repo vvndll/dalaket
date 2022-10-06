@@ -17,7 +17,7 @@ const Product = ({ product, products }) => {
   return (
     <>
     <Head>
-        <title>Dalaket | Product Name</title>
+        <title>Dalaket | Vases</title>
     </Head>
     <div className={styles.product}>
 

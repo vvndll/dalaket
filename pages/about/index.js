@@ -8,7 +8,7 @@ const About = () => {
     <>
     <Head>
         <title>Dalaket | About</title>
-        <link rel="icon" href="/logo.ico" />
+        <link rel="icon" href="/logo.png" />
     </Head>
     <div className={styles.about}>
 

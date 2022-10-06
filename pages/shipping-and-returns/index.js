@@ -7,7 +7,7 @@ const ShippingAndReturns = () => {
     <>
     <Head>
         <title>Dalaket | Shipping & Returns</title>
-        <link rel="icon" href="/logo.ico" />
+        <link rel="icon" href="/logo.png" />
     </Head>
     <div className={styles.shipping}>
         <div className={styles.container}>

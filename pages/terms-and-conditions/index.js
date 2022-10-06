@@ -7,7 +7,7 @@ const TermsAndConditions = () => {
     <>
     <Head>
         <title>Dalaket | Terms & Conditions</title>
-        <link rel="icon" href="/logo.ico" />
+        <link rel="icon" href="/logo.png" />
     </Head>
     <div className={styles.terms}>
         <div className={styles.container}>
