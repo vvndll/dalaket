@@ -1,0 +1,156 @@
+.cart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--clear-gray);
+    display: flex;
+    justify-content: flex-end;
+
+    .container {
+        overflow: scroll;
+        width: 30rem;
+        height: 100vh;
+        color: var(--bg-clr);
+        background-color: var(--fnt-clr);
+        padding: 2rem;
+        position: relative;
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: calc(100% - 30rem);
+            width: 30rem;
+            height: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: var(--fnt-clr);
+            padding: 2rem;
+            z-index: 1500;
+        }
+
+        .empty {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            p {
+                text-align: center;
+                margin-block: 5em;
+
+            }
+
+            .button {
+                width: 100%;
+                padding: .3rem 1rem;
+                border: 1px solid var(--bg-clr);
+                margin-bottom: 1rem;
+                color: var(--fnt-clr);
+                background-color: var(--bg-clr);
+
+                &:hover {
+                    color: var(--bg-clr);
+                    background: none;
+                }
+                
+
+            }
+        }
+
+        .cont {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            margin-top: 3rem;
+
+            .item {
+                margin-block: 1em;
+                display: flex;
+                gap: 3rem;
+                border-bottom: 1px solid var(--bg-clr);
+                padding-block: 1rem;
+    
+                .details {
+                    display: flex;
+                    flex-direction: column;
+                    font-size: .9rem;
+    
+                    .name {
+                        margin-bottom: 1em;
+                        font-size: 1rem;
+                    }
+    
+                    .price, .quant {
+                        line-height: 1.2;
+                    }
+    
+                    .buttons {
+                        width: max-content;
+                        display: flex;
+        
+                        .dec {
+                            padding-inline: .3rem;
+                        }
+        
+                        .inc {
+                            padding-inline: .3rem;
+                        }
+        
+                        span {
+                            margin-inline: .3rem;
+                            text-decoration: underline;
+                        }
+                    }
+    
+                    .remove {
+                        margin-block: 2em;
+                        transition: color .2s ease-in;
+    
+                        &:hover {
+                            color: rgb(253, 7, 80);
+                        }
+                    }
+                }
+            }
+        }
+
+        .fixed {
+            position: fixed;
+            bottom: 0;
+            left: calc(100% - 30rem);
+            width: 30rem;
+            height: max-content;
+            background-color: var(--fnt-clr);
+            padding: 2rem;
+            z-index: 1500;
+
+            .total {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 2rem;
+                padding: 1em;
+                border-top: 1px solid var(--bg-clr);
+            }
+            .button {
+                width: 100%;
+                padding: .3rem 1rem;
+                border: 1px solid var(--bg-clr);
+                margin-bottom: 1rem;
+                color: var(--fnt-clr);
+                background-color: var(--bg-clr);
+    
+                &:hover {
+                    color: var(--bg-clr);
+                    background: none;
+                }
+            }
+        }
+
+       
+    }
+}

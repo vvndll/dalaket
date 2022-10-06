@@ -1,0 +1,29 @@
+.shipping {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%; 
+    padding: 8rem 15rem;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+
+        h2 {
+            margin-bottom: 1em;
+            border-bottom: 1px solid var(--fnt-clr);
+        }
+
+        p {
+            width: 50rem;
+            font-size: .8rem;
+            margin-block:.5em;
+            vertical-align: middle;
+
+            i {
+                margin-right: 1rem;
+            }
+        }
+    }
+}

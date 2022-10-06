@@ -1,0 +1,48 @@
+.about {
+    width: 100%;
+    height: 100%;
+    padding: 8rem 15rem;
+
+    .heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+            width: 40rem;
+            text-align: center;
+            font-size: 1.2rem;
+            margin-block: 5em;
+        }
+
+        .journal {
+            display: grid;
+            place-items: center;
+        }  
+    }
+
+    .grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        margin-block: 10em;
+
+        .para {
+            h2 {
+                border-bottom: 1px solid var(--fnt-clr);
+            }
+
+            p {
+                font-size: .8rem;
+                margin-block: 2em;
+            }
+        }
+
+        .image {
+            display: grid;
+            place-items: center;
+            width: 100%;
+        } 
+    }
+}

@@ -1,0 +1,47 @@
+.login {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh; 
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid var(--fnt-clr);
+        padding: 2rem;
+
+        h2 {
+            font-size: 1.7rem;
+            margin-bottom: 2em;
+        }
+
+        .input {
+            text-align: center;
+            padding: .3rem 1rem;
+            font-size: 1.2rem;
+            width: 30rem;
+            border-bottom: 1px solid var(--fnt-clr);
+            margin-block: .5rem;
+            cursor: pointer;
+        }
+
+        .button {
+            font-size: 1.2rem;
+            color: var(--bg-clr);
+            background-color: var(--fnt-clr);
+            margin-block: 2em;
+        }
+
+        a {
+            text-decoration: underline;
+        }
+
+        p {
+            text-align: center;
+            font-size: .8rem;
+            line-height: 1.4;
+        }
+    }
+
+}
